@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+logs/
+settings.json
+.env
+client/node_modules/
+client/dist/
+
+# Served files stay out of git; keep the folder itself
+files/*
+!files/.gitkeep
